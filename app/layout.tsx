@@ -6,6 +6,7 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import { ThemeContextProvider } from "@/contexts/theme-context";
 import { Toaster } from "react-hot-toast";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           <CurrentSectionContextProvider>
             <Header />
             {children}
+            <SpeedInsights />
             <Footer />
 
             <Toaster position="top-right" />
