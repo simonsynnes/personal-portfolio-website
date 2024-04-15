@@ -3,15 +3,12 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import beautifulcounterapp from "@/public/beautifulcounterapp.png";
+import portfoliowebsite from "@/public/portfoliowebsite.png";
 
 export const links = [
   {
     name: "Home",
     hash: "#home",
-  },
-  {
-    name: "About",
-    hash: "#about",
   },
   {
     name: "Projects",
@@ -20,6 +17,10 @@ export const links = [
   {
     name: "Skills",
     hash: "#skills",
+  },
+  {
+    name: "About",
+    hash: "#about",
   },
   {
     name: "Experience",
@@ -65,6 +66,16 @@ export const projectsData = [
       "Project to create a beautiful counter app using React and CSS.",
     tags: ["React", "TypeScript", "Vite", "CSS"],
     imageUrl: beautifulcounterapp,
+    gitHubURL: "https://github.com/Simonsynnes/beautiful-counter-app",
+    projectURL: "https://simon-s.github.io/beautiful-counter-app/",
+  },
+  {
+    title: "This portfolio website",
+    description: "Project to create a portfolio website using React and CSS.",
+    tags: ["Next.js", "TypeScript", "Vercel", "TailwindCSS"],
+    imageUrl: portfoliowebsite,
+    gitHubURL: "https://github.com/simonsynnes/personal-portfolio-website",
+    projectURL: "simonsynnes.com",
   },
 ];
 
