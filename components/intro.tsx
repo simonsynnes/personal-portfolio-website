@@ -66,7 +66,8 @@ const Intro = () => {
       >
         <span className="font-bold">Hello, I&apos;m Simon.</span> I&apos;m a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">4 years</span> of experience.
+        <span className="font-bold">4 years</span> of experience. I like
+        building things and I am into cybersecurity.
       </motion.h1>
 
       <motion.div
