@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import beautifulcounterapp from "@/public/beautifulcounterapp.png";
 import portfoliowebsite from "@/public/portfoliowebsite.png";
+import fantasypl from "@/public/fantasypl.png";
 
 export const links = [
   {
@@ -61,13 +62,13 @@ export const experienceData = [
 
 export const projectsData = [
   {
-    title: "Beautiful Counter App",
+    title: "Fantasy PL league dashboard",
     description:
-      "Project to create a beautiful counter app using React and CSS.",
-    tags: ["React", "TypeScript", "Vite", "CSS"],
-    imageUrl: beautifulcounterapp,
-    gitHubURL: "https://github.com/Simonsynnes/beautiful-counter-app",
-    projectURL: "https://simon-s.github.io/beautiful-counter-app/",
+      "Full-stack application that shows updated price changes, injury updates and live score updates.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Vercel Postgres"],
+    imageUrl: fantasypl,
+    gitHubURL: "https://github.com/simonsynnes/fantasypl-league-dashboard",
+    projectURL: "https://fantasypl-league-dashboard.vercel.app/",
   },
   {
     title: "This portfolio website",
@@ -76,6 +77,15 @@ export const projectsData = [
     imageUrl: portfoliowebsite,
     gitHubURL: "https://github.com/simonsynnes/personal-portfolio-website",
     projectURL: "simonsynnes.com",
+  },
+  {
+    title: "Beautiful Counter App",
+    description:
+      "Project to create a beautiful counter app using React and CSS.",
+    tags: ["React", "TypeScript", "Vite", "CSS"],
+    imageUrl: beautifulcounterapp,
+    gitHubURL: "https://github.com/Simonsynnes/beautiful-counter-app",
+    projectURL: "https://simon-s.github.io/beautiful-counter-app/",
   },
 ];
 
