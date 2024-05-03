@@ -59,7 +59,7 @@ const Intro = () => {
           >
             I am a <span className="font-bold">full-stack developer</span> with{" "}
             <span className="font-bold">4 years</span> of experience. I like
-            building things and am into cybersecurity.
+            building things and I am into cybersecurity.
           </motion.p>
           <motion.div
             className="flex flex-col sm:flex-row items-center justify-start gap-4"
@@ -86,29 +86,55 @@ const Intro = () => {
               Download CV{" "}
               <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
             </a>
-            <span className="hidden sm:block mx-4 h-6 w-px bg-gray-300 dark:bg-white/50"></span>{" "}
-            {/* Vertical Divider */}
-            <a
-              className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-              href="https://linkedin.com/in/simonsynnes"
-              target="_blank"
-            >
-              <BsLinkedin />
-            </a>
-            <a
-              className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-              href="https://github.com/simonsynnes"
-              target="_blank"
-            >
-              <FaGithubSquare />
-            </a>
-            <a
-              className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-              href="https://twitter.com/ryx_simon"
-              target="_blank"
-            >
-              <BsTwitter />
-            </a>
+            {/* Social Media Icons grouped separately for mobile */}
+            <div className="flex sm:hidden gap-2">
+              <a
+                className="bg-white p-2 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                href="https://linkedin.com/in/simonsynnes"
+                target="_blank"
+              >
+                <BsLinkedin />
+              </a>
+              <a
+                className="bg-white p-2 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                href="https://github.com/simonsynnes"
+                target="_blank"
+              >
+                <FaGithubSquare />
+              </a>
+              <a
+                className="bg-white p-2 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                href="https://twitter.com/ryx_simon"
+                target="_blank"
+              >
+                <BsTwitter />
+              </a>
+            </div>
+            {/* On larger screens, keep all elements in one row */}
+            <div className="hidden sm:flex gap-2">
+              <span className="mx-4 h-10 w-px bg-gray-300 dark:bg-white/50"></span>
+              <a
+                className="bg-white p-2 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                href="https://linkedin.com/in/simonsynnes"
+                target="_blank"
+              >
+                <BsLinkedin />
+              </a>
+              <a
+                className="bg-white p-2 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                href="https://github.com/simonsynnes"
+                target="_blank"
+              >
+                <FaGithubSquare />
+              </a>
+              <a
+                className="bg-white p-2 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                href="https://twitter.com/ryx_simon"
+                target="_blank"
+              >
+                <BsTwitter />
+              </a>
+            </div>
           </motion.div>
         </motion.div>
       </div>
