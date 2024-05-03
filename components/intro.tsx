@@ -49,7 +49,7 @@ const Intro = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
           >
-            Hello, I am <span className="font-bold">Simon</span>.
+            Hello, I am <span className="font-bold">Simon</span>👋
           </motion.h1>
           <motion.p
             className="mb-6 text-xl"

@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Simon | Personal Portfolio",
-  description: "Simon is a full-stack developer with 4 years of experience.",
+  description: "Simon is a full stack developer with 4 years of experience.",
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {

@@ -51,10 +51,10 @@ export const experienceData = [
     date: "2019 - 2020",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Full Stack Developer",
     location: "Aalesund, NO",
     description:
-      "I'm now working as a full-stack developer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and PostgreSQL.",
+      "I'm now working as a full stack developer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and PostgreSQL.",
     icon: React.createElement(FaReact),
     date: "2020 - present",
   },
