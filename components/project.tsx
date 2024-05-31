@@ -29,10 +29,10 @@ const Project = ({
   return (
     <motion.div
       ref={ref}
-      style={{
-        scale: scaleProgress,
-        opacity: opacityProgress,
-      }}
+      // style={{
+      //   scale: scaleProgress,
+      //   opacity: opacityProgress,
+      // }}
       className="relative overflow-hidden rounded-lg border border-black/5 bg-gray-100 transition group-hover:bg-gray-200 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 h-full flex flex-col"
       whileHover={{ scale: 1.03, boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)" }}
     >
