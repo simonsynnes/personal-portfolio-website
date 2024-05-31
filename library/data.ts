@@ -81,8 +81,8 @@ export const projectsData = [
   {
     title: "PodTextify",
     description:
-      "Micro SaaS project allowing users to transcribe and translate podcasts.",
-    tags: ["Next.js", "TypeScript", "MongoDB", "TailwindCSS"],
+      "Micro SaaS project allowing users to transcribe and translate podcasts using AI.",
+    tags: ["Next.js", "AI", "MongoDB", "TailwindCSS"],
     imageUrl: podTextify,
     gitHubURL: "",
     projectURL: "https://podtextify.com",
