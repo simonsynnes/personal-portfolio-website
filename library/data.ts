@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import portfoliowebsite from "@/public/portfoliowebsite.png";
 import fantasypl from "@/public/fantasypl.png";
-import podTextify from "@/public/podTextify.png";
+import podTextify from "@/public/PodTextify.png";
 
 export const links = [
   {
