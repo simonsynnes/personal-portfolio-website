@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import beautifulcounterapp from "@/public/beautifulcounterapp.png";
 import portfoliowebsite from "@/public/portfoliowebsite.png";
 import fantasypl from "@/public/fantasypl.png";
+import podTextify from "@/public/podTextify.png";
 
 export const links = [
   {
@@ -79,13 +79,13 @@ export const projectsData = [
     projectURL: "simonsynnes.com",
   },
   {
-    title: "Beautiful Counter App",
+    title: "PodTextify",
     description:
-      "Project to create a beautiful counter app using React and CSS.",
-    tags: ["React", "TypeScript", "Vite", "CSS"],
-    imageUrl: beautifulcounterapp,
-    gitHubURL: "https://github.com/Simonsynnes/beautiful-counter-app",
-    projectURL: "https://simon-s.github.io/beautiful-counter-app/",
+      "Micro SaaS project allowing users to transcribe and translate podcasts.",
+    tags: ["Next.js", "TypeScript", "MongoDB", "TailwindCSS"],
+    imageUrl: podTextify,
+    gitHubURL: "",
+    projectURL: "https://podtextify.com",
   },
 ];
 
