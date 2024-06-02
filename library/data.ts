@@ -6,6 +6,7 @@ import portfoliowebsite from "@/public/portfoliowebsite.png";
 import fantasypl from "@/public/fantasypl.png";
 import podTextify from "@/public/PodTextify.png";
 
+// links for the header
 export const links = [
   {
     name: "Home",
