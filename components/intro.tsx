@@ -49,7 +49,7 @@ const Intro = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
           >
-            Hello, I am <span className="font-bold">Simon</span>👋
+            Simon Synnes: Full-Stack Developer
           </motion.h1>
           <motion.p
             className="mb-6 text-xl"
@@ -57,9 +57,8 @@ const Intro = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            I am a <span className="font-bold">full-stack developer</span> with{" "}
-            <span className="font-bold">4 years</span> of experience. I like
-            building things and I am into cybersecurity.
+            With 4 years of experience, I focus on building robust web
+            applications and exploring modern cybersecurity practices.
           </motion.p>
           <motion.div
             className="flex flex-col sm:flex-row items-center justify-start gap-4"
